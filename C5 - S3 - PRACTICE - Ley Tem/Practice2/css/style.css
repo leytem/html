@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    outline: none;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    background: #000;
+    height: 100vh;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    height: 90%;
+    width: 30%;
+    border-radius: 7px;
+    margin: auto;  
+    padding: 20px;
+}
+.header-form{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    color:teal;
+}
+.resgister{
+    flex: 1;
+}
+.form-element{
+    flex: 9;
+    display: flex;
+    flex-direction: column;
+}
+
+.user-name,
+.user-email,
+.user-pc,
+.user-more-infos,
+.user-mdy,
+.user-subject,
+.box,
+.box-button {
+    flex: 1;
+    display: flex;
+    width: 100%;
+}
+.user-name,
+.user-pc{
+    gap: 23px;
+
+}
+input[type = text],
+input[type = password]{
+    flex: 1;
+}
+
+input[type = email],
+input[type = text],
+input[type = password],
+input[type = email],
+input[type = date]{
+    width: 100%;
+    height: 35px;
+    padding-left: 10px;
+}
+.box{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+input[type = file] {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #8d8d8d;
+    width: 100%;
+}
+.box-button {
+    width: 100%;
+}
+select {
+    height: 35px;
+    width: 100%;
+}
+.user-more-infos,
+.user-subject{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+button{
+    border-radius: 17px ;
+    width: 100%;
+    padding: 10px;
+    background: darkcyan;
+    border: none;
+    color: white;
+
+}
